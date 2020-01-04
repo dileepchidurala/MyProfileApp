@@ -1,0 +1,31 @@
+:host {
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    table-layout:fixed;
+    border-spacing:0 0;
+}
+
+
+.intro{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro img{
+    flex:1;
+    border-radius: 90%;
+    height: 150px;
+}
+
+.bio{
+    flex: 9;
+    padding-left: 50px;
+}
+
+.bio p{
+    line-height: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
